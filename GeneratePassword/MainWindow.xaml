@@ -1,0 +1,16 @@
+﻿<Window x:Class="GeneratePassword.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GeneratePassword"
+        mc:Ignorable="d"
+        Title="Генератор паролей" Height="280" Width="930.018">
+    <Grid Margin="0,0,2,0">
+
+        <TextBlock Text="Сгенерированный пароль: " FontSize="20" Width="260" Height="40" Margin="24,7,595,202"  />
+        <TextBox Name="tbPass" Height="30" Width="300" Margin="6,52,573,167"   />
+
+        <Button Name="btnPassword" Content="Сгенерировать пароль" Background="#FF01998B" Foreground="White" Height="50" Width="170" Margin="69,87,640,112" Click="btnGenPassword_Click"  />
+    </Grid>
+</Window>
